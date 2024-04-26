@@ -6,6 +6,7 @@ import {
   forgotPasswordController,
   getAllOrdersController,
   orderStatusController,
+  updateProfileController,
 } from "../controllers/authController.js";
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 
